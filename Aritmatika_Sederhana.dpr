@@ -7,18 +7,18 @@ uses
   crt;
 
 var
-  a : Integer;
+  a : Integer; //inisiasi variabel
   b : String;
   c : Integer;
   hasil : Integer;
 
 begin
-  Write('Masukkan nilai a =  ');
+  Write('Masukkan nilai a =  '); //input nilai
   Readln(a);
   b:= 'Ini Aritmatika Sederhana';
   c:= 40;
 
-  hasil:= a + c;
+  hasil:= a + c; //penjumlahan aritmatika 
   Writeln(b);
   Writeln('Hasil dari : ',a,' + ',c,' = ', hasil);
 
